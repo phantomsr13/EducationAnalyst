@@ -180,6 +180,16 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Education.Data\Education.Data.csproj">
+      <Project>{05e765d9-d2db-438b-9168-4329a2fe1315}</Project>
+      <Name>Education.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Education.Service\Education.Service.csproj">
+      <Project>{94cd2305-b90c-45b8-b00f-32748a019073}</Project>
+      <Name>Education.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
